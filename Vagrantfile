@@ -19,7 +19,7 @@ Vagrant::Config.run do |config|
 
   # Forward a port from the guest to the host, which allows for outside
   # computers to access the VM, whereas host only networking does not.
-  config.vm.forward_port "http",  80,   8080
+  config.vm.forward_port "http",  80,   8888
   config.vm.forward_port "mysql", 3306, 3306
 
   # Share an additional folder to the guest VM. The first argument is
